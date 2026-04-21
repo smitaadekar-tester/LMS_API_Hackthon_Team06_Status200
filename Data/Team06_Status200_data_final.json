@@ -1,0 +1,1792 @@
+[
+    {
+        "requests": [
+            {
+                "name": "Create user login with Role",
+                "data": [
+                     {
+                        "userFirstName": "",
+                        "userLastName": "",
+                        "userMiddleName": "",
+                        "userPhoneNumber": "+91 607406700",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "invalid user name",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Alex034test@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "aman",
+                        "userLastName": "Pat",
+                        "userMiddleName": "Mtest",
+                        "userPhoneNumber": "+91 1234567669",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "duplicate ph no",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Alex034test@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "Marytest",
+                        "userLastName": "Pattest",
+                        "userMiddleName": "Mtest",
+                        "userPhoneNumber": "+91 6000067000",
+                        "userLocation": "USA",
+                        "userTimeZone": "AAA",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "invalid timezone",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Alex034test@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "Marytest",
+                        "userLastName": "Pattest",
+                        "userMiddleName": "Mtest",
+                        "userPhoneNumber": "+91 6000067000",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "invalid visa",
+                        "userVisaStatus": "XXX",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Alex034test@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "Marytest",
+                        "userLastName": "Pattest",
+                        "userMiddleName": "Mtest",
+                        "userPhoneNumber": "+91 6000067000",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "invalid email",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Alex034tegmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "Marytest",
+                        "userLastName": "Pattest",
+                        "userMiddleName": "Mtest",
+                        "userPhoneNumber": "+91 6000067000",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "email already exist",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Team006@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "Marytest",
+                        "userLastName": "Pattest",
+                        "userMiddleName": "Mtest",
+                        "userPhoneNumber": "+91 6000067000",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "invalid role id",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Alex034test@gmail.com",
+                        "roleId": "R45",
+                        "userRoleStatus": "Acivet",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "Marytest",
+                        "userLastName": "Pattest",
+                        "userMiddleName": "Mtest",
+                        "userPhoneNumber": "+91 6000067000",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test0",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "invalid status",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Acti",
+                        "userLoginEmail": "Alex034test@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Acte",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 400
+                    },
+                    {
+                        "userFirstName": "Nicolas",
+                        "userLastName": "Cage",
+                        "userMiddleName": "Mat",
+                        "userPhoneNumber": "+91 3201246069",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test1",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "valid user data",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "Niccage@gmail.com",
+                        "roleId": "R02",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 201
+                    },
+                    
+                    {
+                        "userFirstName": "Morgan",
+                        "userLastName": "Freeman",
+                        "userMiddleName": "Dan",
+                        "userPhoneNumber": "+1 6505061129",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test1",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "valid user data",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "morgan@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 201
+                    },
+                    {
+                        "userFirstName": "Jamie",
+                        "userLastName": "Klem",
+                        "userMiddleName": "Adrian",
+                        "userPhoneNumber": "+1 3106045009",
+                        "userLocation": "USA",
+                        "userTimeZone": "IST",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/test1",
+                        "userEduUg": "BE",
+                        "userEduPg": "MS",
+                        "userComments": "valid user data",
+                        "userVisaStatus": "H1B",
+                        "loginStatus": "Active",
+                        "userLoginEmail": "jmieK@gmail.com",
+                        "roleId": "R03",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleStatus",
+                        "statusCode": 201
+                    }
+                ]
+            },
+            {
+                "name": "Get all Roles",
+                "data": [
+                    {
+                        "endpoint": "role",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "roles",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get all Users",
+                "data": [
+                    {
+                        "endpoint": "user",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get all Users with Roles",
+                "data": [
+                    {
+                        "endpoint": "users/role",
+                        "statusCode": 404
+                    }, 
+                    {
+                        "endpoint": "users/roles",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get count of Active users",
+                "data": [
+                     {
+                        "endpoint": "users/byStat",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/byStatus",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get all Active Users",
+                "data": [
+                    {
+                        "endpoint": "users/activser",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/activeUsers",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get all users with facets/filters",
+                "data": [
+                    {
+                        "endpoint": "v2users",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "v2/users",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get user by Id",
+                "data": [
+                     {
+                        "endpoint": "users/{{User_invalid_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "user/{{User_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/{{User_userId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get user batchId by userId",
+                "data": [
+                    {
+                        "endpoint": "users/user/{{User_invalid_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/use/{{User_userId}}",
+                        "statusCode": 404
+                    },  
+                    {
+                        "endpoint": "users/user/{{User_userId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get user Details by batchId",
+                "data": [
+                     {
+                        "endpoint": "users/details/{{User_invalid_batchId}}",
+                        "statusCode": 404
+                    },
+                     {
+                        "endpoint": "users/detail/{{envbatchId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/details/{{envbatchId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get users by role Id",
+                "data": [
+                     {
+                        "endpoint": "users/roles/R45",
+                        "statusCode": 404
+                    },
+                     {
+                        "endpoint": "users/role/{{staffRoleId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/roles/{{staffRoleId}}",
+                        "statusCode": 200
+                    },
+                    {
+                        "endpoint": "users/roles/{{adminRoleId}}",
+                        "statusCode": 200
+                    },
+                    {
+                        "endpoint": "users/roles/{{studentRoleId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get users by program Id",
+                "data": [
+                    {
+                        "endpoint": "users/programs/{{User_invalid_programId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/progms/{{envprogramId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/programs/{{envprogramId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get users by program Batch Id",
+                "data": [
+                     {
+                        "endpoint": "users/programBatch/{{User_invalid_batchId}}",
+                        "statusCode": 404
+                    },
+                     {
+                        "endpoint": "users/programatch/{{envbatchId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/programBatch/{{envbatchId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get Emails of All Users with Active Status",
+                "data": [
+                      {
+                        "endpoint": "fetchemails",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "fetch-emails",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Update user",
+                "data": [
+                     {
+                        "userComments": "test new update comment",
+                        "userEduPg": "MS",
+                        "userEduUg": "BE",
+                        "userFirstName": "",
+                        "userLastName": "",
+                        "userMiddleName": "Rtest",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/smita",
+                        "userLocation": "USA",
+                        "userLoginEmail": "smita33test@gmail.com",
+                        "userPhoneNumber": "+1 2790288500",
+                        "userTimeZone": "EST",
+                        "userVisaStatus": "H1B",
+                        "endpoint": "users/{{User_userId}}",
+                        "statusCode": 400
+                    },
+                     {
+                        "userComments": "test new update comment",
+                        "userEduPg": "MS",
+                        "userEduUg": "BE",
+                        "userFirstName": "Ganpatitest",
+                        "userLastName": "Moryatest",
+                        "userMiddleName": "Rtest",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/smita",
+                        "userLocation": "USA",
+                        "userLoginEmail": "smita33test@gmail.com",
+                        "userPhoneNumber": "+1 2790288500",
+                        "userTimeZone": "EST",
+                        "userVisaStatus": "H1B",
+                        "endpoint": "users/{{User_invalid_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "userComments": "test new update comment",
+                        "userEduPg": "MS",
+                        "userEduUg": "BE",
+                        "userFirstName": "Nancy",
+                        "userLastName": "Klemm",
+                        "userMiddleName": "Adain",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/smit",
+                        "userLocation": "USA",
+                        "userLoginEmail": "nankle@gmail.com",
+                        "userPhoneNumber": "+1 2140560094",
+                        "userTimeZone": "EST",
+                        "userVisaStatus": "H1B",
+                        "endpoint": "users/{{User_userId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Update user login status",
+                "data": [
+                    {
+   
+                        "loginStatus": "Active",
+                        "status": "Act",
+                        "endpoint": "users/userLogin/{{User_userId}}",
+                        "statusCode": 400
+                    },
+                    {
+                        "loginStatus": "Active",
+                        "status": "Active",
+                        "endpoint": "users/userLogin/{{User_invalid_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "loginStatus": "Active",
+                        "status": "Active",
+                        "endpoint": "users/userLgin/{{User_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+
+                        "loginStatus": "Active",
+                        "status": "Active",
+                        "endpoint": "users/userLogin/{{User_userId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Update user role Id",
+                "data": [
+                    {
+                        "roleId":"R02",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleId/{{User_invalid_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "roleId":"R02",
+                        "userRoleStatus": "Act",
+                        "endpoint": "users/roleId/{{User_userId}}",
+                        "statusCode": 400
+                    },
+                    {
+                        "roleId":"R02",
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/role/{{User_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "roleId":"R45", 
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleId/{{User_userId}}",
+                        "statusCode": 400
+                    },
+                    {
+                        "roleId":"R02", 
+                        "userRoleStatus": "Active",
+                        "endpoint": "users/roleId/{{User_userId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Update User Role Program Batch Status",
+                "data": [
+                     {
+                        "userRoleProgramBatchStatus": "Active",
+                        "endpoint": "users/roleProgramBatchStatus/{{User_invalid_userId}}",
+                        "statusCode": 404
+                    },
+                     {
+                        "userRoleProgramBatchStatus": "",
+                        "endpoint": "users/roleProgramBatchStatus/{{User_userId}}",
+                        "statusCode": 400
+                    },
+                     {
+                        "userRoleProgramBatchStatus": "Active",
+                        "endpoint": "users/roleProgramtchStatus/{{User_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "userRoleProgramBatchStatus": "Active",
+                        "endpoint": "users/roleProgramBatchStatus/{{User_userId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Delete user by user Id",
+                "data": [
+                     {
+                        "endpoint": "users/{{User_invalid_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "user/{{User_userId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "users/{{User_userId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+
+{
+                "name": "User Login",
+                "data": [
+                    {
+                        "endpoint": "login",
+    			"userLoginEmailId": "Team06@gmail.com",
+    			"password": "invalidPassword",
+    			"statusCode": 400
+                    },
+		    {
+			"endpoint": "login",
+    			"userLoginEmailId": "invalid@email.com",
+   			"password": "Team06@6003",
+    			"statusCode": 400
+		    },
+		    {
+			"endpoint": "login",
+    			"userLoginEmailId": "",
+   			"password": "",
+    			"statusCode": 400
+		    },
+                    {
+                        "endpoint": "login",	
+    			"userLoginEmailId": "Team06@gmail.com",
+   		        "password": "Team06@6003",
+     			"statusCode": 200
+                    }
+
+                ]
+            },
+            {
+                "name": "Forgot Password",
+                "data": [
+
+		    {
+                        "endpoint": "login/forgotpass/confirmEmail",
+     			"statusCode": 404
+		    },
+                    {
+                        "endpoint": "login/forgotpassword/confirmEmail",
+     			"statusCode": 201
+		    }
+                ]
+            },
+            {
+                "name": "Reset Password",
+                "data": [
+                  {
+			"endpoint": "resetassword",
+  			"password": "TrialTeam06@6003",
+     			"statusCode": 404
+		  },
+                  {
+			"endpoint": "resetPassword",
+  			"password": "TrialTeam06@6003",
+     			"statusCode": 200
+		    }
+                ]
+            },
+            {
+                "name": "Logout",
+                "data": [
+                     {
+                         "endpoint": "logoutlm",
+    			 "statusCode": 404
+
+                    },
+                     {
+                         "endpoint": "logoutlms",
+    			 "statusCode": 200
+
+                    }
+                ]
+            },
+{
+                "name": "Create program",
+                "data": [
+                                       
+                      {
+                     "programDescription": "check program with login with valid credentials ",
+                     "programName": "Test program with login",
+                     "programStatus": "Active",
+                     "endpoint": "saveprogram",
+                     "statusCode": 400
+                    },
+                    {
+                     "programDescription": "check program with login",
+                      "programName": "Test program with login",
+                      "programStatus": "Active",
+                      "endpoint": "saveprogram",
+                      "statusCode": 400   
+                    },      
+
+                     {
+                     "programDescription": "check program with login",
+                      "programName": "Test program with login",
+                      "programStatus": "Active",
+                      "endpoint": "saveprogram",
+                      "statusCode": 400
+                   },
+                    {
+                      "programDescription": "check program with login",
+                      "programName": "Test program with login",
+                      "programStatus": "Active",
+                      "endpoint": "saveprogra",
+                      "statusCode": 404
+                    },
+                     {
+                      "programDescription": "Read and edit10",
+                      "programName": "Adobe Acrobat",
+                      "programStatus": "Active",
+                      "endpoint": "saveprogram",
+                      "statusCode": 201
+                   }
+
+                 ]
+                  },
+                     {
+                          "name": "Get all Programs",
+                          "data": [
+                           {
+                           "endpoint": "allProgram",
+                            "statusCode": 404
+                          },
+                           {
+                             "endpoint": "allPrograms",
+                             "statusCode": 200
+                            }  
+                 ]
+               },
+                    {
+                      "name": "Get all Programs with all users",
+                      "data": [       
+                              {
+                                            
+                                "endpoint": "allProgramsWithUser",
+                                "statusCode": 404
+                            },
+                             { 
+                                
+                               "endpoint": "allProgramsWithUsers",
+                               "statusCode": 200
+                            }
+                         ]
+                    }, 
+                       {
+                         "name": "Get Program with programid",
+                         "data": [       
+                                  {
+                                      "endpoint": "progr/{{envprogramId}}",
+                                      "statusCode": 404
+
+                                   },
+              
+                                 {
+                
+                                     "endpoint": "programs/{{envprogramId}}",
+                                     "statusCode": 200
+                                  }
+                               ]
+                             },
+                   {  
+                                
+                      "name": "Update Program by ProgramName",
+                       "data": [
+                         
+                          {
+                             "programDescription": "Check programs1820",
+                             "endpoint": "progra/{{envprogramName}}",
+                             "programStatus": "Active",
+                             "statusCode": 404
+                          },
+                          {
+                              "programDescription": "Check adad jssoid okldsaoa kjasdkhsda",
+                              "endpoint": "program/{{envprogramName}}",
+                             "programStatus": "Active",
+                             "statusCode": 400
+                            },
+                           {
+                             "programDescription": "Ch",
+                              "endpoint": "program/{{envprogramName}}",
+                             "programStatus": "Active",
+                             "statusCode": 400
+                            },
+                           {
+                              "programDescription": "Reade and edito10",
+                             "endpoint": "program/{{envprogramName}}",
+                             "programStatus": "Active",
+                             "statusCode": 200
+                          }
+                       ]
+                   },
+                {
+
+                        "name": "Update Program by ProgramId",
+                         "data": [
+                           
+                          { 
+                                "programDescription": "Check the programs12 with testers",
+                                
+                                "endpoint": "putprogram/{{envprogramId}}",
+                                "statusCode": 400
+
+                           },
+
+                                
+                         { 
+                             "programDescription":  "Check the programs12 with testers",
+                             
+                             "endpoint": "putprogam/{{envprogramId}}",
+                             "statusCode": 404
+
+                           },
+
+                          { 
+                             "programDescription": "Reader and editor10",
+                            
+                             "endpoint": "putprogram/{{envprogramId}}",
+                             "statusCode": 200
+
+                           }
+                       ]
+                    },
+                {
+                            "name": "Delete Program By ProgramID",
+                            "data":[
+                             {
+                              
+                              "endpoint": "deletebyprogid/{{User_invalid_programId}}",
+                              "statusCode": 404
+                             },
+
+                             {
+                              
+                              "endpoint": "deletebyprog/{{envprogramId}}",
+                              "statusCode": 404
+                           },
+                           {
+                              
+                              "endpoint": "deletebyprogid/{{envprogramId}}",
+                              "statusCode": 200
+                            }
+                   
+                         ]
+                     },
+                 {
+                          "name": "Delete Program By ProgramName",
+                          "data":[ 
+                             { 
+                               
+                               "endpoint": "deletebyprogname/invalidprogramname",
+                               "statusCode":  400
+                             },
+                            {
+                               
+                               "endpoint": "deletebyprogna/{{envprogramName}}",
+                               "statusCode":  404
+                             },
+                           {
+                              
+                               "endpoint": "deletebyprogname/{{envprogramName}}",
+                               "statusCode": 200 
+                             }
+               
+                        ]
+                     },
+                       
+              {
+                "name": "Create New Batch",
+                "data": [
+                   {
+                        "batchDescription": "Devv and Envv setup",
+                        "batchName": "{{envprogramName}}_200",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "Active",
+                        "endpoint": "batches",
+                        "statusCode": 201
+                    },
+                    {
+                        "batchDescription": "Tes",
+                        "batchName": "",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "Active",
+                        "programId": "{{envprogramId}}",
+                        "programName": "{{envprogramName}}",
+                        "endpoint": "batches",
+                        "statusCode": 400
+                    },
+                    {
+                        "batchDescription": "",
+                        "batchName": "{{envprogramName}}_200",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "Active",
+                        "programId": "{{envprogramId}}",
+                        "programName": "{{envprogramName}}",
+                        "endpoint": "batches",
+                        "statusCode": 400
+                    },
+                    {
+                        "batchDescription": "Tes",
+                        "batchName": "{{envprogramName}}_200",
+                        "batchNoOfClasses": 0,
+                        "batchStatus": "Active",
+                        "programId": "{{envprogramId}}",
+                        "programName": "{{envprogramName}}",
+                        "endpoint": "batches",
+                        "statusCode": 400
+                    },
+                    {
+                        "batchDescription": "Tes",
+                        "batchName": "{{envprogramName}}_200",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "",
+                        "programId": "{{envprogramId}}",
+                        "programName": "{{envprogramName}}",
+                        "endpoint": "batches",
+                        "statusCode": 400
+                    },
+                    {
+                        "batchDescription": "Test",
+                        "batchName": "Ipad",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "Active",
+                        "programId": "{{envprogramId}}",
+                        "programName": "Ipad",
+                        "endpoint": "batches",
+                        "statusCode": 400
+                    },
+                    {
+                        "batchDescription": "T",
+                        "batchName": "{{envprogramName}}_200",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "Active",
+                        "programId": "{{envprogramId}}",
+                        "programName": "{{envprogramName}}",
+                        "endpoint": "batchs",
+                        "statusCode": 404
+                    },
+                    {
+                        "batchDescription": "Te",
+                        "batchName": "{{envprogramName}}_200",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "Active",
+                        "programId": 1200,
+                        "programName": "{{envprogramName}}",
+                        "endpoint": "batches",
+                        "statusCode": 400
+                    }
+                ]
+            },
+            {
+                "name": "GET All Batches",
+                "data": [
+                    {
+                        "endpoint": "batche",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batches",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "GET Batch by BatchId",
+                "data": [
+                    {
+                        "endpoint": "batches/batch/{{envbatchId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batches/batchId/89$",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batches/batchId/{{envbatchId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "GET Batch by BatchName",
+                "data": [
+                    {
+                        "endpoint": "batche/batchName/{{batchName}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batches/batchName/don",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batches/batchName/{{batchName}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "GET Batch by ProgramId",
+                "data": [
+                    {
+                        "endpoint": "batches/pro/{{envprogramId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batches/program/A1112",
+                        
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batches/program/{{envprogramId}}",
+                        
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Update by BatchId",
+                "data": [
+                    {
+                        "batchDescription": "Test2updated",                     
+                        "batchNoOfClasses": 11,
+                        "batchStatus": "Active",                        
+                        "endpoint": "batche/{{envbatchId}}",
+                        "statusCode": 404
+                    },
+
+                    {
+                        "batchDescription": "Install setup10",                     
+                        "batchNoOfClasses": 11,
+                        "batchStatus": "Active",                        
+                        "endpoint": "batches/{{envbatchId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Delete Batch by BatchId",
+                "data": [
+                      {
+                        
+                        "endpoint": "batche/{{envbatchId}}",
+                        "statusCode": 404
+                    },
+                     {
+                        
+                        "endpoint": "batches/8000",
+                        "statusCode": 404
+                    },
+                    {
+                        
+                        "endpoint": "batches/{{envbatchId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Create new class",
+                "data": [
+
+                    {
+                      "logMsg" : "Validate Post with Invalid batch id",
+                      "batchId": "{{User_invalid_batchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+
+                    {
+                      "logMsg" : "Validate Post Count of Class Scheduled Dates should be equal to Number of Classes",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 3,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+
+                    
+                    {
+                      "logMsg" : "Validate Post with invalid endpoint",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSch",
+                      "statusCode": 404
+                    },
+                 
+                    
+                    {
+                      "logMsg" : "Validate Post mandatory fields - batchid",
+                      "batchId": "",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+                    {
+                      "logMsg" : "Validate Post mandatory fields - classno",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 0,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+
+                    {
+                      "logMsg" : "Validate Post mandatory fields - classdate",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+
+                    {
+                      "logMsg" : "Validate Post mandatory fields - classtopic",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+                   {
+                      "logMsg" : "Validate Post mandatory fields - class status",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20 class status",
+                      "classStatus": "",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "{{batchName}}",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+  
+                   {
+                      "logMsg" : "Validate Post invalid staff id",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "8905",
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+
+                    {
+                      "logMsg" : "Validate Post mandatory fields - staff id",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": 0,
+                      "classDescription": "Learning Agentic AI and workflows ",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-07-09T15:11:08.750+00:00\",\"2026-07-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+
+
+                    {
+                      "logMsg" : "Validate Post mandatory fields - scheduled dates",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates": 0,
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+                    {
+                      "logMsg" : "Validate Post scheduled date",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-06-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Learning Agentic AI and workflows",
+                      "classComments": "Agentic AI and workflows ",
+                      "classNotes": "Agentic AI and workflow models",
+                      "classRecordingPath": "Class Recording Folder",
+                      "batchName": "Agentic AI Batch1",
+                      "classScheduledDates":  "[\"2026-01-09T15:11:08.750+00:00\",\"2026-01-10T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    },
+                    
+                    {
+                      "logMsg" : "Post new class created with just mandatory data",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20 with mandatory data",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "",
+                      "classComments": "",
+                      "classNotes": "",
+                      "classRecordingPath": "",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 201
+                    },
+
+                    {
+                      "logMsg" : "Validate post duplicate topic",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20 with mandatory data",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "",
+                      "classComments": "",
+                      "classNotes": "",
+                      "classRecordingPath": "",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "CreateClassSchedule",
+                      "statusCode": 400
+                    }
+                    
+                ]
+            },
+
+           {
+                "name": "Update Class schedule by ClassID",
+                "data": [
+                    {
+                     "logMsg" : "validate update - Invalid class id",
+                     "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Invalid_ClassID}}",
+                      "statusCode": 404
+                 
+                    },
+                    {
+                      "logMsg" : "Validate update - invalid batch id",
+                      "batchId": "{{User_invalid_batchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 404
+                 
+                    },
+
+                    {
+                      "logMsg" : "Validate update - scheduled dates should be equal to number of classes",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 3,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 400
+                 
+                    },
+
+                    {
+                      "logMsg" : " Validate update invalid endpoint",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClgjh",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 404
+                 
+                    },
+
+                    {   
+                      "logMsg" : "Validate update mandatory fields - batchid",                   
+                      "batchId": 0,
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 404
+                    },   
+
+                    {  
+                      "logMsg" : "Validate update mandatory fields - classno",                    
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 0,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 400
+                    },
+
+                    {   
+                      "logMsg" : "Validate update mandatory fields - classdate",                                       
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "",
+                      "classTopic": "Agentic AIxxx20",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 400
+                    },
+   
+                    {                 
+                      "logMsg" : "Validate update mandatory fields - class topic",                    
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 404
+                    },   
+
+                    {                      
+                      "logMsg" : "Validate update invalid staff id",                      
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx21",
+                      "classStatus": "Active",
+                      "classStaffId": "uddd2s045",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 404
+                    },   
+
+
+
+                    {
+                      "logMsg" : "Validate update mandatory fields - class scheduled dates",                        
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx21",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates": 0,
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 400
+                 
+                    },
+
+
+
+                    {
+                      "logMsg" : "Validate update - future date for class schedule",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx21",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "Agentic AI Batch 2",
+                      "classScheduledDates":  "[\"2026-01-12T15:11:08.750+00:00\",\"2026-01-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 400
+                 
+                    },
+
+
+
+                    {
+
+                      "logMsg" : "class updated",
+                      "classNo": 3,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx21_updated",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\",\"2026-07-14T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 200
+                 
+                    },
+
+
+                    {
+
+                      "logMsg" : "Validate update - duplicate class topic",
+                      "batchId": "{{envbatchId}}",
+                      "classNo": 2,
+                      "classDate": "2026-07-16T14:23:58.279Z",
+                      "classTopic": "Agentic AIxxx21_updated",
+                      "classStatus": "Active",
+                      "classStaffId": "{{staff_user_id}}",
+                      "classDescription": "Agentic AI and its relevance today in testing",
+                      "classComments": "Agentic AI",
+                      "classNotes": "Agentic AI ",
+                      "classRecordingPath": "Class Recording folder",
+                      "batchName": "{{batchName}}",
+                      "classScheduledDates":  "[\"2026-07-12T15:11:08.750+00:00\",\"2026-07-13T15:11:08.750+00:00\"]",
+                      "endpoint": "updateClass",
+                      "classId" : "{{Valid_ClassID}}",
+                      "statusCode": 400
+                 
+                    }       
+            ]
+            },
+
+            {
+                "name": "Update Class recordings by ClassID",
+                "data": [
+                    {
+                        "endpoint": "updateClassrecording",
+                        "csId": "{{Invalid_ClassID}}",
+                        "classRecordingPath": "Agentic_AI.mp4",
+                        "statusCode": 400
+                    },
+                    {
+                        "endpoint": "updateClsss",
+                        "csId": "{{Valid_ClassID}}",
+                        "classRecordingPath": "Agentic_AI.mp4",
+                        "statusCode": 404
+                    },
+
+                    {
+                        "endpoint": "updateClassrecording",
+                        "csId": "{{Valid_ClassID}}",
+                        "classRecordingPath": "Agentic_AI.mp4",
+                        "statusCode": 200
+                    }
+                ]
+              },
+
+
+            {
+                "name": "Get All Class List",
+                "data": [
+                    {
+                        "endpoint": "allCla",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "allClasses",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get Class details by ClassID",
+                "data": [
+                    {
+                        "endpoint": "classss{{Valid_ClassID}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "class/{{Invalid_ClassID}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "class/{{Valid_ClassID}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get Class Recordings By ClassID",
+                "data": [
+                    {
+                        "endpoint": "cRecordings/{{Valid_ClassID}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classRecordings/{{Invalid_ClassID}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classRecordings/{{Valid_ClassID}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+
+            {
+                "name": "Get All Classes by Class Topic",
+                "data": [
+                    {
+                        "endpoint": "classss/{{Valid_Class_Topic}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classes/{{Invalid_Class_Topic}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classes/{{Valid_Class_Topic}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get Class Recordings By BatchId",
+                "data": [
+                    {
+                        "endpoint": "batchRecordin",
+                        "batchId": "{{envbatchId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batchRecordings",
+                        "batchId": "{{User_invalid_batchId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "batchRecordings",
+                        "batchId": "{{envbatchId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+          {
+                "name": "Get All Classes By BatchId",
+                "data": [
+                    {
+                        "endpoint": "classesbyBa",
+                        "batchId": "{{envbatchId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classesbyBatch",
+                        "batchId": "{{User_invalid_batchId}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classesbyBatch",
+                        "batchId": "{{envbatchId}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get All Class Recordings",
+                "data": [
+                    {
+                        "endpoint": "allCla",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classrecordings",
+                        "statusCode": 200
+                    }
+                ]
+            },
+            {
+                "name": "Get All Classes by StaffID",
+                "data": [
+                    {
+                        "endpoint": "classesBySta",
+                        "staffId": "{{staff_user_id}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classesByStaff",
+                        "staffId": "U07@",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "classesByStaff",
+                        "staffId": "{{staff_user_id}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+
+            {
+                "name": "Download Class Recordings",
+                "data": [
+                    {
+                        "endpoint": "downloa",
+                        "classId" : "{{Valid_ClassID}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "download",
+                        "classId" : "{{Invalid_ClassID}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "download",
+                        "classId" : "{{Valid_ClassID}}",
+                        "statusCode": 200
+                    }
+                ]
+            },
+
+            {
+                "name": "Get All upcoming classes for a student",
+                "data": [
+                    {
+                        "endpoint": "upcomingClas",
+                        "studentID": "{{student_user_id}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "upcomingClasses",
+                        "studentID": "ib7@@@@##",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "upcomingClasses",
+                        "studentID": "{{student_user_id}}",
+                        "statusCode": 200
+                    }
+                ]
+            },  
+
+              {
+                "name": "Delete Class By ClassID",
+                "data": [
+                    {
+                        "endpoint": "deleteByClass",
+                        "classId" : "{{Invalid_ClassID}}",
+                        "statusCode": 404
+                    },
+                    {
+                        "endpoint": "deleteByClass",
+                        "classId" : "{{Valid_ClassID}}",
+                        "statusCode": 200
+                    },
+                   {
+                        "endpoint": "deleteByCldds",
+                        "classId" : "{{Valid_ClassID}}",
+                        "statusCode": 400
+                    }
+ 
+                ]
+            },
+
+
+            {}
+        ]
+    }
+]
